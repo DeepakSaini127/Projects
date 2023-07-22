@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+
+        }
+
+        body {
+            background-color: rgb(72, 255, 246);
+        }
+
+        .container {
+            background-color: #485461;
+            padding: 15px 20px;
+            border-radius: 10px;
+            display: grid;
+            grid-template-columns: 90px 90px 90px 90px;
+            grid-template-rows: 50px 50px 50px 50px 50px;
+            gap: 10px;
+            grid-template-areas:
+                "item1 item2 item3 item4"
+                "item5 item6 item7 item8"
+                "item9 item10 item11 item12"
+                "item13 item14 item15 item16"
+                "item17 item17 item18 item18 "
+            ;
+        }
+
+        #item1 {
+            grid-area: item1;
+        }
+
+        #item2 {
+            grid-area: item2;
+        }
+
+        #item3 {
+            grid-area: item3;
+        }
+
+        #item4 {
+            grid-area: item4;
+        }
+
+        #item5 {
+            grid-area: item5;
+        }
+
+        #item6 {
+            grid-area: item6;
+        }
+
+        #item7 {
+            grid-area: item7;
+        }
+
+        #item8 {
+            grid-area: item8;
+        }
+
+        #item9 {
+            grid-area: item9;
+        }
+
+        #item10 {
+            grid-area: item10;
+        }
+
+        #item11 {
+            grid-area: item11;
+        }
+
+        #item12 {
+            grid-area: item12;
+        }
+
+        #item13 {
+            grid-area: item13;
+        }
+
+        #item14 {
+            grid-area: item14;
+        }
+
+        #item15 {
+            grid-area: item15;
+        }
+
+        #item16 {
+            grid-area: item16;
+        }
+
+        #item17 {
+            grid-area: item17;
+        }
+
+        #item18 {
+            grid-area: item18;
+        }
+
+        .item {
+            background-color: rgb(218, 215, 215);
+            border-radius: 5px;
+            color: black;
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .item:hover{
+             box-shadow: 5px 4px 7px aqua;
+            cursor: pointer;
+             
+        }
+
+        .header {
+
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 210px 1fr;
+            place-items: center;
+        }
+
+        .screen {
+            background-color: #485461;
+            width: 27rem;
+            height: 200px;
+            border-radius: 8px;
+            cursor: text;
+        }
+        .cal{
+            display: block;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+   <div class="cal">
+    <h1>This is Calculator</h1>
+   </div>
+    
+    <div class="header">
+        <div class="display">
+            <div class="screen"></div>
+        </div>
+        <div class="container">
+            <div class="item" id="item1">7</div>
+            <div class="item" id="item2">8</div>
+            <div class="item" id="item3">9</div>
+            <div class="item" id="item4">DEL</div>
+            <div class="item" id="item5">4</div>
+            <div class="item" id="item6">5</div>
+            <div class="item" id="item7">6</div>
+            <div class="item" id="item8">+</div>
+            <div class="item" id="item9">1</div>
+            <div class="item" id="item10">2</div>
+            <div class="item" id="item11">3</div>
+            <div class="item" id="item12">-</div>
+            <div class="item" id="item13">.</div>
+            <div class="item" id="item14">0</div>
+            <div class="item" id="item15">/</div>
+            <div class="item" id="item16">X</div>
+            <div class="item" id="item17">RESET</div>
+            <div class="item" id="item18">=</div>
+
+        </div>
+    </div>
+</body>
+
+</html>
