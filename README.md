@@ -1,3 +1,2 @@
 # Projects
-Our Project
-In this website some our projects.
+These are some projects to cteate by me.
